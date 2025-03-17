@@ -1,0 +1,85 @@
+h1{
+    color: black;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+    background: linear-gradient(45deg, #1e3c72, #2a5298); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; 
+  }
+  
+ 
+  .app-container {
+    text-align: center;
+    background-color: #ffffff; 
+    padding: 40px 50px;
+    border-radius: 12px; 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); 
+    width: 380px; 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .app-container:hover {
+    transform: scale(1.05); 
+  }
+
+  select {
+    padding: 12px;
+    width: 100%;
+    margin: 20px 0;
+    border: 2px solid #ff7f50; 
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f0f8ff; 
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  select:hover {
+    border-color: #ff6347;
+    background-color: #fff3e6; 
+  }
+  
+  button {
+    padding: 14px;
+    background: linear-gradient(45deg, #ff7f50, #ff6347); 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #ff6347, #ff7f50); 
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(0); 
+  }
+
+  #weather-info {
+    margin-top: 30px;
+    color: #333; 
+  }
+  
+  #weather-info h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #ff7f50; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  
+  #weather-info p {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #333; 
+  }
+  
